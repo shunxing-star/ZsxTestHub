@@ -19,7 +19,7 @@
     UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];        //遵循代理UNUserNotificationCenterDelegate
     center.delegate = self;
     [center requestAuthorizationWithOptions:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) completionHandler:^(BOOL granted, NSError * _Nullable error) {if (!error && granted) {NSLog(@"注册成功");}else{NSLog(@"注册失败");}}];
-    //获取通知授权信息
+    //获取通知授权信息11
      [application registerForRemoteNotifications];
     return YES;
 }
