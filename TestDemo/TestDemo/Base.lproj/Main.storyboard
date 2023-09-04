@@ -28,12 +28,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kA4-6g-Tea">
+                                <rect key="frame" x="159" y="269" width="75" height="35"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="R8g-rc-yf3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="320" id="3GJ-dx-09G"/>
                             <constraint firstItem="R8g-rc-yf3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="CcM-Ff-4jC"/>
+                            <constraint firstItem="kA4-6g-Tea" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NN8-aQ-hS4"/>
+                            <constraint firstItem="kA4-6g-Tea" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="210" id="QLF-zz-Weo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R8g-rc-yf3" secondAttribute="trailing" constant="50" id="u8J-9h-Vtd"/>
                         </constraints>
                     </view>
@@ -47,6 +55,9 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
